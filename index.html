@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catatan Pengeluaran Harian</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Catatan Keuangan Harian</h2>
+    <div class="total-box">
+      <h3>Total Pengeluaran:</h3>
+      <h1 id="total-amount">Rp 0</h1>
+    </div>
+
+    <form id="expense-form">
+      <input type="text" id="description" placeholder="Nama pengeluaran (misal: Makan Siang)" required />
+      <input type="number" id="amount" placeholder="Jumlah (Rp)" required />
+      <button type="submit">Tambah Catatan</button>
+    </form>
+
+    <ul id="expense-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
